@@ -226,7 +226,7 @@
                     Height="41" />
 
             <TextBlock x:Name="PageTitle"
-                       Text="my mvvm app"
+                       Text="Cubix"
                        Style="{StaticResource HeaderTextBlockStyle}"
                        Grid.Column="1"
                        IsHitTestVisible="false"
@@ -239,23 +239,17 @@
                    FontSize="56"
                    Text="{Binding WelcomeTitle}"
                    Grid.Row="1"
-                   VerticalAlignment="Top"
-                   HorizontalAlignment="Left"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"
                    FontFamily="Segoe UI Light"
                    Margin="120,49,0,0"
                    TextAlignment="Center"
                    FontWeight="Light"
                    TextWrapping="WrapWholeWords" />
 
-        <local:TestUserControl x:Name="Bottom"
-                               HorizontalAlignment="Left"
-                               Height="100"
-                               VerticalAlignment="Bottom"
-                               Width="790"
-                               Grid.Row="1"
-                               Margin="120,0,0,80" />
+       
 
-        <Button Content="Second page"
+        <Button Content="Credit Page"
                 x:Name="NextPageButton"
                 HorizontalAlignment="Right"
                 VerticalAlignment="Top"

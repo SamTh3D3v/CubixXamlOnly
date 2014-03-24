@@ -118,8 +118,8 @@
     <Compile Include="Common\SuspensionManager.cs" />
     <Compile Include="Common\UserControlBase.cs" />
     <Compile Include="Design\DesignDataService.cs" />
-    <Compile Include="SecondPage.xaml.cs">
-      <DependentUpon>SecondPage.xaml</DependentUpon>
+    <Compile Include="CreditPage.xaml.cs">
+      <DependentUpon>CreditPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
@@ -129,9 +129,6 @@
     <Compile Include="Model\DataService.cs" />
     <Compile Include="Model\IDataService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TestUserControl.xaml.cs">
-      <DependentUpon>TestUserControl.xaml</DependentUpon>
-    </Compile>
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\ViewModelLocator.cs" />
   </ItemGroup>
@@ -154,7 +151,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="SecondPage.xaml">
+    <Page Include="CreditPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -165,10 +162,6 @@
     <Page Include="Skins\MainSkin.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </Page>
-    <Page Include="TestUserControl.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>

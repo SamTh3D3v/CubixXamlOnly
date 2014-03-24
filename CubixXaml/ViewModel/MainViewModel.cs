@@ -36,7 +36,7 @@ namespace CubixXaml.ViewModel
             {
                 return _navigateCommand
                        ?? (_navigateCommand = new RelayCommand(
-                           () => _navigationService.Navigate(typeof(SecondPage))));
+                           () => _navigationService.Navigate(typeof(CreditPage))));
             }
         }
 

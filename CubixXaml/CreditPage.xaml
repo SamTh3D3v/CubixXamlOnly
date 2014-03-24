@@ -6,7 +6,7 @@
                  xmlns:ignore="http://www.ignore.com"
                  xmlns:interactivity="using:Microsoft.Xaml.Interactivity"
                  x:Name="PageRoot"
-                 x:Class="CubixXaml.SecondPage"
+                 x:Class="CubixXaml.CreditPage"
                  mc:Ignorable="d ignore">
 
     <common:PageBase.Resources>
@@ -113,12 +113,13 @@
                     AutomationProperties.ItemType="Navigation Button" />
 
             <TextBlock x:Name="PageTitle"
-                       Text="second page"
+                       Text="Credit Page"
                        Style="{StaticResource HeaderTextBlockStyle}"
                        Grid.Column="1"
                        IsHitTestVisible="false"
                        TextWrapping="NoWrap"
-                       VerticalAlignment="Bottom"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
                        Margin="0,0,30,40" />
         </Grid>
     </Grid>

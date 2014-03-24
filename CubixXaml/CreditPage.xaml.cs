@@ -1,8 +1,8 @@
 ﻿namespace CubixXaml
 {
-    public sealed partial class TestUserControl
+    public sealed partial class CreditPage
     {
-        public TestUserControl()
+        public CreditPage()
         {
             InitializeComponent();
         }
