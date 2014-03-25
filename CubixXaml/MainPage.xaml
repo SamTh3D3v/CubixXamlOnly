@@ -234,8 +234,8 @@
                        VerticalAlignment="Bottom"
                        Margin="0,0,30,40" />
         </Grid>
-
-        <TextBlock x:Name="WelcomeTextBlock"
+        <Grid Grid.Row="1" Margin="401,5,-401,-5">
+            <!--<TextBlock x:Name="WelcomeTextBlock"
                    FontSize="56"
                    Text="{Binding WelcomeTitle}"
                    Grid.Row="1"
@@ -245,15 +245,33 @@
                    Margin="120,49,0,0"
                    TextAlignment="Center"
                    FontWeight="Light"
-                   TextWrapping="WrapWholeWords" />
+                   TextWrapping="WrapWholeWords" />-->
+            <Rectangle Fill="#FFFFFFFF" HorizontalAlignment="Center" Height="70" VerticalAlignment="Center" Width="70"  />
 
-       
+            <Rectangle Fill="#FFFFFFFF" HorizontalAlignment="Center" Height="70" VerticalAlignment="Center" Width="70" Margin="723,279,573,279"/>
+            <Rectangle Fill="#FFFFFFFF" HorizontalAlignment="Center" Height="70" VerticalAlignment="Center" Width="70" Margin="573,279,723,279"/>
+            <Rectangle Fill="#FFFFFFFF" HorizontalAlignment="Center" Height="70" VerticalAlignment="Center" Width="70" Margin="648,204,648,354"/>
+            <Rectangle Fill="#FFFFFFFF" HorizontalAlignment="Center" Height="70" VerticalAlignment="Center" Width="70" Margin="723,204,573,354"/>
+            <Rectangle Fill="#FFFFFFFF" HorizontalAlignment="Center" Height="70" VerticalAlignment="Center" Width="70" Margin="573,204,723,354"/>
+            <Rectangle Fill="#FFFFFFFF" HorizontalAlignment="Center" Height="70" VerticalAlignment="Center" Width="70" Margin="648,354,648,204">
+                <Rectangle.Projection>
+                    <PlaneProjection CenterOfRotationX="2.2" RotationY="0"/>
+                </Rectangle.Projection>
+            </Rectangle>
+            <Rectangle Fill="#FFFFFFFF" HorizontalAlignment="Center" Height="70" VerticalAlignment="Center" Width="70" Margin="723,354,573,204"/>
+            <Rectangle Fill="#FFFFFFFF" HorizontalAlignment="Center" Height="70" VerticalAlignment="Center" Width="70" Margin="573,354,723,204"/>
+        </Grid>
 
-        <Button Content="Credit Page"
+        
+
+
+
+        <!--<Button Content="Credit Page"
                 x:Name="NextPageButton"
                 HorizontalAlignment="Right"
                 VerticalAlignment="Top"
                 Margin="10"
-                Command="{Binding NavigateCommand}" />
+                Command="{Binding NavigateCommand}" />-->
+        
     </Grid>
 </common:PageBase>
